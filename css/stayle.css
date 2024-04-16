@@ -59,11 +59,11 @@ html {
 }
 
 #home::before {
+    background: url(../img/mypic.jpg) no-repeat center center/cover;
     content: "";
     position: absolute;
     top: 0;
     right: 0;
-    background: url(../my-portfolio-/img/mypic.jpg) no-repeat center center/cover;
     height: 530px;
     width: 100%;
     z-index: -1;
