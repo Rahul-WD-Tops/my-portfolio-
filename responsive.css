@@ -1,5 +1,84 @@
+@media only screen and (max-width: 350px) {
+
+    /* Nav */
+    nav {
+        width: 100%;
+        height: 57px;
+        /* gap: 100px; */
+    }
+
+
+
+    /* Section - 01 */
+    #section-01 {
+        padding-left: 80px;
+    }
+
+    #section-01 h1 {
+        font-size: 35px;
+    }
+
+    #section-01 h2 {
+        font-size: 25px;
+    }
+
+    nav {
+        gap: 23px;
+    }
+
+    .second .part-01 h2 {
+        font-size: 10px;
+        gap: 0;
+    }
+
+    .second {
+        gap: 1px;
+    }
+
+    .second .part-02 p {
+        font-size: 10px;
+    }
+
+
+    #section-05 h2 {
+        font-size: 28px;
+    }
+
+    #section-06 h2 {
+        font-size: 26px;
+        /* left: 210px; */
+        /* top: 50px; */
+    }
+
+    .icon-container {
+
+        gap: 40px;
+    }
+
+    .icon-container p {
+
+        font-size: 12px;
+
+    }
+
+
+    .map {
+        width: 70px;
+        height: 70px;
+
+    }
+}
+
+
+
+
+
+
+
 /* X-Small devices (portrait phones, less than 576px) */
-@media (max-width: 576px) {
+
+
+@media only screen and (max-width: 576px) {
 
     /* Nav */
     nav {
@@ -46,7 +125,7 @@
     }
 
     .second {
-        gap: 15px;
+        gap: 5px;
     }
 
     .part-02 {
@@ -151,7 +230,7 @@
 }
 
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 
     /* Nav */
     nav {
